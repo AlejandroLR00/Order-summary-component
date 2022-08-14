@@ -16,21 +16,35 @@ body{
     font-size: 16px;
 }
 
+.bg-mb{
+    position: absolute;
+    top: 0;
+}
+
 .main{
     height: 100vh;
     /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--pale-blue);
 }
 
 .card{
+    z-index: 1;
     width: 326px;
-    height: 566px;
-    outline: 1px solid red;
+    /* height: 620px; */
+    /* outline: 1px solid red; */
     border-radius: 20px;
     overflow: hidden;
     margin: 1rem;
+    background-color: white;
+}
+
+.summary__title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 2rem;
 }
 
 .card__img{
@@ -43,12 +57,17 @@ body{
     margin: 0 1.5rem;
 }
 
+.summary__text{
+    line-height: 1.5rem;
+    color: var(--Desaturated-blue);
+}
+
 .card__plan{
     background-color: var(--Very-pale-blue);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 1.5rem;
+    margin: 2rem 1.5rem 0;
     border-radius: 20px;
 }
 
@@ -62,10 +81,20 @@ body{
 
 }
 
-/* .plan__change{
-    display: flex;
-    align-items: center;
-} */
+.text--bold{
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.text--price{
+    margin-top: 0;
+}
+
+
+.plan__change{
+    font-weight: 700;
+    font-size: .8rem;
+}
 
 .card__button{
     height: 10.4rem;
@@ -83,15 +112,19 @@ body{
     width: 100%;
     border-radius: 1rem;
     padding: 1rem 0;
+    margin-top: 1rem;
 }
 
 .button--color{
     color: var(--pale-blue);
     background-color: var(--bright-blur);
+    margin-top: 0;
 
 }
 
 .button--transparent{
-    color: var(--Dark-blue);
     background-color: transparent;
+    font-weight: 700;
+    color: var(--Desaturated-blue);
+    margin-top: .5rem;
 }
