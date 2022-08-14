@@ -116,7 +116,7 @@ body{
 }
 
 .button--color{
-    color: var(--pale-blue);
+    color: white;
     background-color: var(--bright-blur);
     margin-top: 0;
 
