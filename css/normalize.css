@@ -10,6 +10,9 @@
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
+
+ * 1. Corrija la altura de la línea en todos los navegadores.
+ * 2. Evitar ajustes de tamaño de fuente después de cambios de orientación en iOS.
  */
 
 html {
@@ -63,6 +66,9 @@ hr {
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
+
+ * 1. Corregir la herencia y el escalado del tamaño de fuente en todos los navegadores.
+  * 2. Corrija el tamaño de fuente `em` impar en todos los navegadores.
  */
 
 pre {

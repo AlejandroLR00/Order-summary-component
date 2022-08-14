@@ -1,0 +1,97 @@
+:root{
+
+    /* primary */
+    --pale-blue: hsl(225,100%, 94%);
+    --bright-blur: hsl(245, 75%, 52%);
+
+    /* neutral */
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    /* 500, 700, 900 */
+}
+
+body{
+    font-family:  'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.main{
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 326px;
+    height: 566px;
+    outline: 1px solid red;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.card__img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.card__summary{
+    text-align: center;
+    margin: 0 1.5rem;
+}
+
+.card__plan{
+    background-color: var(--Very-pale-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 1.5rem;
+    border-radius: 20px;
+}
+
+.plan__annual{
+    position: relative;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+
+}
+
+/* .plan__change{
+    display: flex;
+    align-items: center;
+} */
+
+.card__button{
+    height: 10.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+
+.button{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem 0;
+}
+
+.button--color{
+    color: var(--pale-blue);
+    background-color: var(--bright-blur);
+
+}
+
+.button--transparent{
+    color: var(--Dark-blue);
+    background-color: transparent;
+}
